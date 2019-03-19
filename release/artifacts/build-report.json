@@ -1,0 +1,316 @@
+﻿{
+    "Item": {
+        "Name": "Project",
+        "Size": 0,
+        "CompressedSize": 0
+    },
+    "Children": [{
+        "Item": {
+            "Name": "Runtime",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/TinySharkGirl/html5/release/build/runtime.js",
+                "Size": 938327,
+                "CompressedSize": 183508
+            }
+        }]
+    }, {
+        "Item": {
+            "Name": "Assets",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "JavaScript",
+                "Size": 11166,
+                "CompressedSize": 0
+            }
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/enemy_1/enemy_1_1.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "16a509c0e7a574727add734020c06d86", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/enemy_1_1.png",
+                    "Size": 3396,
+                    "CompressedSize": 2570,
+                    "Object": { "$TypeId": 10, "Guid": "16a509c0e7a574727add734020c06d86", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/enemy_1/enemy_1_2.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "5e2dea3e32c6248c88b84b9b6cdbe8eb", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/enemy_1_2.png",
+                    "Size": 3248,
+                    "CompressedSize": 2488,
+                    "Object": { "$TypeId": 10, "Guid": "5e2dea3e32c6248c88b84b9b6cdbe8eb", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/enemy_1/enemy_1_3.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "ba2c3d89e0e3844b89ab6a1d08aced77", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/enemy_1_3.png",
+                    "Size": 3332,
+                    "CompressedSize": 2541,
+                    "Object": { "$TypeId": 10, "Guid": "ba2c3d89e0e3844b89ab6a1d08aced77", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/bg/bg1.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "5d815bb5be46744ff821867582ac5336", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/bg1.png",
+                    "Size": 3440,
+                    "CompressedSize": 2204,
+                    "Object": { "$TypeId": 10, "Guid": "5d815bb5be46744ff821867582ac5336", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/shark_girl/shark_girl_1.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "ccf355b6e9d6448e98f0dfbd332b10b0", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/shark_girl_1.png",
+                    "Size": 3288,
+                    "CompressedSize": 2524,
+                    "Object": { "$TypeId": 10, "Guid": "ccf355b6e9d6448e98f0dfbd332b10b0", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/shark_girl/shark_girl_2.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "bef6a82f708ba4baf8401752205a914a", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/shark_girl_2.png",
+                    "Size": 3192,
+                    "CompressedSize": 2433,
+                    "Object": { "$TypeId": 10, "Guid": "bef6a82f708ba4baf8401752205a914a", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/shark_girl/shark_girl_3.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "322756c394e0f40c4a3f1ed132b98d50", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/shark_girl_3.png",
+                    "Size": 3220,
+                    "CompressedSize": 2461,
+                    "Object": { "$TypeId": 10, "Guid": "322756c394e0f40c4a3f1ed132b98d50", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/button_shark_girl/button_shark_girl.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "c554c9ad9bd15468182dbc65302395be", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/button_shark_girl.png",
+                    "Size": 6336,
+                    "CompressedSize": 4823,
+                    "Object": { "$TypeId": 10, "Guid": "c554c9ad9bd15468182dbc65302395be", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/bullet_player.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "38c9c655859b54ffcbae275e369103ed", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/bullet_player.png",
+                    "Size": 264,
+                    "CompressedSize": 241,
+                    "Object": { "$TypeId": 10, "Guid": "38c9c655859b54ffcbae275e369103ed", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/shark_girl/shark_girl_1_nc.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "e832862d2a3354c9eac139ae0679a78a", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/shark_girl_1_nc.png",
+                    "Size": 3720,
+                    "CompressedSize": 2843,
+                    "Object": { "$TypeId": 10, "Guid": "e832862d2a3354c9eac139ae0679a78a", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/shark_girl/shark_girl_2_nc.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "b0e6534804c6746a58bd8f2061a6ca12", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/shark_girl_2_nc.png",
+                    "Size": 3636,
+                    "CompressedSize": 2780,
+                    "Object": { "$TypeId": 10, "Guid": "b0e6534804c6746a58bd8f2061a6ca12", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/shark_girl/shark_girl_3_nc.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "a4789c48825954a8288d702d13189694", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/shark_girl_3_nc.png",
+                    "Size": 3656,
+                    "CompressedSize": 2792,
+                    "Object": { "$TypeId": 10, "Guid": "a4789c48825954a8288d702d13189694", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySharkGirl/Texture/damage/damage.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "98d4090d15a1546ce923463b82fb9a07", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/assets/damage.png",
+                    "Size": 14184,
+                    "CompressedSize": 10754,
+                    "Object": { "$TypeId": 10, "Guid": "98d4090d15a1546ce923463b82fb9a07", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }]
+    }, {
+        "Item": {
+            "Name": "Code",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/TinySharkGirl/html5/release/build/entities.js",
+                "Size": 49030,
+                "CompressedSize": 4685
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "Bootstrap",
+                    "Size": 1036,
+                    "CompressedSize": 453
+                }
+            }, {
+                "Item": {
+                    "Name": "EnemyDamageGroup",
+                    "Size": 2580,
+                    "CompressedSize": 739
+                }
+            }, {
+                "Item": {
+                    "Name": "EnemyGroup",
+                    "Size": 2991,
+                    "CompressedSize": 863
+                }
+            }, {
+                "Item": {
+                    "Name": "MainGroup",
+                    "Size": 13169,
+                    "CompressedSize": 2533
+                }
+            }, {
+                "Item": {
+                    "Name": "OverGroup",
+                    "Size": 11123,
+                    "CompressedSize": 2084
+                }
+            }, {
+                "Item": {
+                    "Name": "PlayerBulletGroup",
+                    "Size": 2750,
+                    "CompressedSize": 852
+                }
+            }, {
+                "Item": {
+                    "Name": "PlayerDamageGroup",
+                    "Size": 4181,
+                    "CompressedSize": 957
+                }
+            }, {
+                "Item": {
+                    "Name": "TitleGroup",
+                    "Size": 11126,
+                    "CompressedSize": 2081
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/TinySharkGirl/html5/release/build/bindings.js",
+                "Size": 148699,
+                "CompressedSize": 11267
+            }
+        }, {
+            "Item": {
+                "Name": "TinyExport/TinySharkGirl/html5/release/build/code.js",
+                "Size": 24646,
+                "CompressedSize": 4135
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/TinySharkGirl/html5/release/artifacts/scripts/tsc-emit.js",
+                    "Size": 24563,
+                    "CompressedSize": 4064
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/TinySharkGirl/html5/release/build/main.js",
+                "Size": 11857,
+                "CompressedSize": 1786
+            }
+        }]
+    }]
+}

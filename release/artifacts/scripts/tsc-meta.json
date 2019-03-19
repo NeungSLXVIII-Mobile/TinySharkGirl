@@ -1,0 +1,576 @@
+{
+    "Success": true,
+    "Diagnostics": [],
+    "Systems": [
+        {
+            "Name": "CollisionSystem",
+            "QualifiedName": "game.CollisionSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/CollisionSystem.ts",
+                "Line": 7,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart",
+                "ut.HitBox2D.HitBox2DSystem"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "ut.HitBox2D.HitBoxOverlapResults"
+            ]
+        },
+        {
+            "Name": "DamageTimeSystem",
+            "QualifiedName": "game.DamageTimeSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/DamageTimeSystem.ts",
+                "Line": 4,
+                "Character": 17
+            }
+        },
+        {
+            "Name": "GameManagerSystem",
+            "QualifiedName": "game.GameManagerSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/GameManagerSystem.ts",
+                "Line": 6,
+                "Character": 17
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart",
+                "game.CollisionSystem"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ]
+        },
+        {
+            "Name": "InputMovementSystem",
+            "QualifiedName": "game.InputMovementSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/InputMovementSystem.ts",
+                "Line": 4,
+                "Character": 17
+            },
+            "ExecuteAfter": [
+                "ut.Shared.InputFence"
+            ]
+        },
+        {
+            "Name": "SpawnEnemySystem",
+            "QualifiedName": "game.SpawnEnemySystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/SpawnEnemySystem.ts",
+                "Line": 3,
+                "Character": 17
+            }
+        },
+        {
+            "Name": "Time",
+            "QualifiedName": "game.Time",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/Time.ts",
+                "Line": 3,
+                "Character": 17
+            },
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeStart"
+            ]
+        }
+    ],
+    "Filters": [
+        {
+            "Name": "BGBehaviourFilter",
+            "QualifiedName": "game.BGBehaviourFilter",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/BGBehaviour.ts",
+                "Line": 3,
+                "Character": 17
+            },
+            "Fields": [
+                {
+                    "Name": "_enity",
+                    "QualifiedName": "ut.Entity",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/BGBehaviour.ts",
+                        "Line": 3,
+                        "Character": 61
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_position",
+                    "QualifiedName": "ut.Core2D.TransformLocalPosition",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/BGBehaviour.ts",
+                        "Line": 4,
+                        "Character": 27
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_SCROLLING_BG",
+                    "QualifiedName": "game.SCROLLING_BG",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/BGBehaviour.ts",
+                        "Line": 5,
+                        "Character": 53
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                }
+            ]
+        },
+        {
+            "Name": "Enemy1BehaviourFilter",
+            "QualifiedName": "game.Enemy1BehaviourFilter",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/Enemy1Behaviour.ts",
+                "Line": 3,
+                "Character": 17
+            },
+            "Fields": [
+                {
+                    "Name": "_enity",
+                    "QualifiedName": "ut.Entity",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/Enemy1Behaviour.ts",
+                        "Line": 3,
+                        "Character": 65
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_position",
+                    "QualifiedName": "ut.Core2D.TransformLocalPosition",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/Enemy1Behaviour.ts",
+                        "Line": 4,
+                        "Character": 27
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_TAG",
+                    "QualifiedName": "game.ENEMY_TAG",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/Enemy1Behaviour.ts",
+                        "Line": 5,
+                        "Character": 53
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_SPEED",
+                    "QualifiedName": "game.MOVE_SPEED",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/Enemy1Behaviour.ts",
+                        "Line": 6,
+                        "Character": 30
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_MOVE_AREA",
+                    "QualifiedName": "game.MOVE_AREA",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/Enemy1Behaviour.ts",
+                        "Line": 7,
+                        "Character": 33
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                }
+            ]
+        },
+        {
+            "Name": "PlayerBehaviourFilter",
+            "QualifiedName": "game.PlayerBehaviourFilter",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBehaviour.ts",
+                "Line": 3,
+                "Character": 17
+            },
+            "Fields": [
+                {
+                    "Name": "_enity",
+                    "QualifiedName": "ut.Entity",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBehaviour.ts",
+                        "Line": 3,
+                        "Character": 65
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_position",
+                    "QualifiedName": "ut.Core2D.TransformLocalPosition",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBehaviour.ts",
+                        "Line": 4,
+                        "Character": 27
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_TAG",
+                    "QualifiedName": "game.PLAYER_TAG",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBehaviour.ts",
+                        "Line": 5,
+                        "Character": 53
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_SPEED",
+                    "QualifiedName": "game.MOVE_SPEED",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBehaviour.ts",
+                        "Line": 6,
+                        "Character": 31
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_MOVE_AREA",
+                    "QualifiedName": "game.MOVE_AREA",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBehaviour.ts",
+                        "Line": 7,
+                        "Character": 33
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_FIRE_RATE",
+                    "QualifiedName": "game.FIRE_RATE",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBehaviour.ts",
+                        "Line": 8,
+                        "Character": 36
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                }
+            ]
+        },
+        {
+            "Name": "PlayerBulletBehaviourFilter",
+            "QualifiedName": "game.PlayerBulletBehaviourFilter",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBulletBehaviour.ts",
+                "Line": 4,
+                "Character": 17
+            },
+            "Fields": [
+                {
+                    "Name": "_enity",
+                    "QualifiedName": "ut.Entity",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBulletBehaviour.ts",
+                        "Line": 4,
+                        "Character": 71
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_position",
+                    "QualifiedName": "ut.Core2D.TransformLocalPosition",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBulletBehaviour.ts",
+                        "Line": 5,
+                        "Character": 27
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_TAG",
+                    "QualifiedName": "game.PLAYER_BULLET_TAG",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBulletBehaviour.ts",
+                        "Line": 6,
+                        "Character": 53
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_SPEED",
+                    "QualifiedName": "game.MOVE_SPEED",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBulletBehaviour.ts",
+                        "Line": 7,
+                        "Character": 38
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                },
+                {
+                    "Name": "_MOVE_AREA",
+                    "QualifiedName": "game.MOVE_AREA",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBulletBehaviour.ts",
+                        "Line": 8,
+                        "Character": 33
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                }
+            ]
+        }
+    ],
+    "Behaviours": [
+        {
+            "Name": "BGBehaviour",
+            "QualifiedName": "game.BGBehaviour",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/BGBehaviour.ts",
+                "Line": 9,
+                "Character": 17
+            },
+            "Fields": [
+                {
+                    "Name": "data",
+                    "QualifiedName": "game.BGBehaviourFilter",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/BGBehaviour.ts",
+                        "Line": 9,
+                        "Character": 61
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                }
+            ],
+            "Methods": [
+                "OnEntityEnable",
+                "OnEntityUpdate"
+            ]
+        },
+        {
+            "Name": "Enemy1Behaviour",
+            "QualifiedName": "game.Enemy1Behaviour",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/Enemy1Behaviour.ts",
+                "Line": 11,
+                "Character": 17
+            },
+            "Fields": [
+                {
+                    "Name": "data",
+                    "QualifiedName": "game.Enemy1BehaviourFilter",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/Enemy1Behaviour.ts",
+                        "Line": 11,
+                        "Character": 65
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                }
+            ],
+            "Methods": [
+                "OnEntityEnable",
+                "OnEntityUpdate"
+            ]
+        },
+        {
+            "Name": "PlayerBehaviour",
+            "QualifiedName": "game.PlayerBehaviour",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBehaviour.ts",
+                "Line": 12,
+                "Character": 17
+            },
+            "Fields": [
+                {
+                    "Name": "data",
+                    "QualifiedName": "game.PlayerBehaviourFilter",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBehaviour.ts",
+                        "Line": 12,
+                        "Character": 65
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                }
+            ],
+            "Methods": [
+                "OnEntityEnable",
+                "OnEntityUpdate"
+            ]
+        },
+        {
+            "Name": "PlayerBulletBehaviour",
+            "QualifiedName": "game.PlayerBulletBehaviour",
+            "Description": "",
+            "Source": {
+                "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBulletBehaviour.ts",
+                "Line": 12,
+                "Character": 17
+            },
+            "Fields": [
+                {
+                    "Name": "data",
+                    "QualifiedName": "game.PlayerBulletBehaviourFilter",
+                    "Description": "",
+                    "Source": {
+                        "File": "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBulletBehaviour.ts",
+                        "Line": 12,
+                        "Character": 71
+                    },
+                    "IsStatic": false,
+                    "IsReadonly": false,
+                    "IsOptional": false,
+                    "IsPublic": true
+                }
+            ],
+            "Methods": [
+                "OnEntityEnable",
+                "OnEntityUpdate"
+            ]
+        }
+    ],
+    "Performance": [
+        {
+            "Key": "tsconfig",
+            "Description": "Time taken to read and parse the given tsconfig.json file",
+            "Duration": 61,
+            "Steps": 1
+        },
+        {
+            "Key": "checksum",
+            "Description": "Time taken to compute the MD5 of all inputs",
+            "Duration": 194,
+            "Steps": 1
+        },
+        {
+            "Key": "compile",
+            "Description": "Time taken to compile the TypeScript program",
+            "Duration": 822,
+            "Steps": 20
+        },
+        {
+            "Key": "emit",
+            "Description": "Time taken to generate and write the JavaScript output",
+            "Duration": 96,
+            "Steps": 2
+        },
+        {
+            "Key": "metadata",
+            "Description": "Time taken to reflect Tiny metadata from the compiled program",
+            "Duration": 23,
+            "Steps": 6
+        }
+    ],
+    "SourceFiles": [
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/BGBehaviour.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/CollisionSystem.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/DamageTimeSystem.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/Enemy1Behaviour.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/GameManagerSystem.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/GameService.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/InputMovementSystem.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBehaviour.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/PlayerBulletBehaviour.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/SpawnEnemySystem.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Assets/TinySharkGirl/Scripts/Time.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityGroup.ts",
+        "/Users/neungsl/Desktop/NeungSLXVIII/Unity/Tiny/TinySharkGirl/Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityLookupCache.ts"
+    ],
+    "InputHash": "3ee4c1706a5010e92b219e056592a523",
+    "GeneratedAt": "Thu Mar 14 2019 18:45:10 GMT+0700 (+07)"
+}
